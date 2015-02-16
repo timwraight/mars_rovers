@@ -1,16 +1,17 @@
 package mars_rovers;
 
-import com.google.common.base.Strings;
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Paths;
+import java.util.List;
 
 public class Main {
 
-    public static void main(String[] args) {
-          
+    public static void main(String[] args) throws IOException {
+    	List<String> input = Files.readAllLines(Paths.get("resources/input.txt"));
+    	
     }
 
-    static String triple(String str) {
-        return Strings.repeat(str, 3);
-    }
 
 
 }

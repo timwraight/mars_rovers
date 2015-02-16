@@ -14,7 +14,7 @@ configurations {
 }
 
 dependencies {
-    compile 'com.google.guava:guava:17.0'
+    compile group: 'com.google.guava', name: 'guava', version: '17.0' 
     markdownDoclet 'ch.raffael.pegdown-doclet:pegdown-doclet:1.1.1'
     testCompile 'junit:junit:4.11' // A dependency for a test framework.
 }
